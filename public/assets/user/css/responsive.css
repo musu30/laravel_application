@@ -1,0 +1,330 @@
+:root {
+    --primarycolor: #93B73E;
+    --secondarycolor: #292D35;
+    --whitecolor: #ffffff;
+    --skyblue: #2AAAE1;
+    --darkgreen: #046937;
+    --green: #557706;
+    --yellow: #FADE15;
+    --orange: #FBB03A;
+    --red: #FF3636;
+    --lightgrey: #F2F2F2;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .free-info-text{
+        flex-wrap: wrap;
+        padding: 0 15px;
+    }
+    .choose-properties-btn .form-check.btn_border_design{
+        margin-bottom: 15px;
+    }
+    .form-group.width-50,.width-50,.customize-plan .menus-wrapper .menu-items{
+        max-width: 100%;
+    }
+    .nav.nav-tabs.choose-plans .nav-link:before{
+        border-left: 0 !important;
+    }
+    .nav.nav-tabs.choose-plans{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav.nav-tabs.choose-plans .nav-item{
+        text-align: left;
+    }
+    .nav.nav-tabs.choose-plans .nav-item,.customize-plan .choose-nutrition.select-shedule-flex .container-ch,.customize-plan .choose-nutrition .container-ch{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+   .menus-wrapper {
+        margin-bottom: 25px;
+    }
+
+    .mobile-menu {
+        padding: 20px;
+        border-bottom: 1px solid #e1e1e1;
+        font-weight: 600;
+        background-color: var(--secondarycolor);
+        color: var(--whitecolor);
+        font-weight: 500;
+    }
+
+
+    .mobile-menu-wrapper,
+    .mob-filter {
+        display: none;
+    }
+
+    .filter-icon {
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        background: var(--lightgrey);
+        border-radius: 10px;
+        margin-bottom: 25px;
+        align-items: center;
+        font-weight: 800;
+    }
+
+    .filter-icon i {
+        margin-right: 10px;
+    }
+
+    .product-flex {
+        padding: 0;
+    }
+
+    .product-source-row {
+        flex-direction: column-reverse;
+    }
+
+    .recipe-content {
+        margin: 45px 0;
+    }
+
+    .weekly-food-wrapper .card-item {
+        height: 200px;
+    }
+
+    .weekly-food-wrapper h3 {
+        font-size: 1.7rem;
+    }
+
+    .global-wrapper {
+        height: 215px;
+    }
+
+    .global-wrapper h1 {
+        font-size: 65px;
+    }
+
+    .account-btn.mob-acc {
+        display: none;
+    }
+
+    .flex-input-field button {
+        max-width: inherit;
+        flex: auto;
+    }
+
+    .intro-wrapper .greeni,
+    .nutrition-wrapper p,
+    .popular-dish-wrapper p {
+        font-size: 23px;
+    }
+
+    .careof-wrapper .careof-works {
+        padding: 0;
+    }
+
+    .careof-wrapper .careof-info p {
+        font-size: 17px;
+        text-align: left;
+    }
+
+    .account-btn {
+        background: var(--secondarycolor);
+        padding: 15px 0;
+    }
+
+    header .container .logo {
+        top: -35px;
+    }
+
+    .menu-btn-mobile {
+        display: block;
+        padding: 0 15px;
+    }
+
+    .account-btn a {
+        font-size: 12px;
+    }
+
+    .banner-carousel.owl-carousel .item {
+        height: 280px;
+    }
+
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .meals-menus .main-meal-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .parallax_scroll {
+        transform: none !important;
+    }
+
+    .about-wrapper{
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+    .about-wrapper .tomato1,
+    .banner-wrapper .owl-dots,
+    .banner-wrapper .owl-nav {
+        display: none;
+    }
+
+    .banner-wrapper .banner-title {
+        width: auto;
+    }
+
+    .banner-wrapper .banner-title h3 {
+        font-size: 2rem;
+    }
+
+    .banner-wrapper .banner-title h6 {
+        font-size: 15px;
+    }
+
+    .banner-wrapper .banner-title {
+        left: 0;
+    }
+
+    header .container .logo img {
+        max-width: 112px;
+        margin-top: 25px;
+    }
+
+    .grunge-down-bottom,
+    .grunge-down-white {
+        bottom: -20px;
+    }
+
+    .grunge-up-white,
+    .grunge-up-green,
+    .grunge-up-top {
+        top: -20px;
+    }
+
+    .banner-wrapper {
+        height: auto;
+    }
+
+    .product-detail-wrap .dishes-links .qty {
+        margin-bottom: 25px;
+    }
+
+    .product-detail-wrap .dishes-links,
+    .nutrition-row,
+    .recipe-row,
+    .ingredients-row,
+    .nutrition-cost-per,
+    .footer-flex {
+        flex-direction: column;
+    }
+
+    header .container .navigation .nav-menu,
+    .about-wrapper .tomato,
+    .about-wrapper .roadtrack,
+    .about-wrapper .leaf1,
+    .about-wrapper .leaf2,
+    .about-wrapper .leaf1,
+    .about-wrapper .leaf {
+        display: none;
+    }
+
+    /* header .container .navigation .nav-menu{
+        position: absolute;
+        top: 45px;
+        left: 0;
+        width: 100%;
+        background: #ffffff;
+    } */
+
+    .flex-input-field input {
+        max-width: 65%;
+        flex: 0 0 65%;
+    }
+
+    .nutrition-title h1 {
+        font-size: 3rem;
+        line-height: 1em;
+        padding: 27px;
+    }
+
+    .cart-product-items,
+    .cart-product-qty,
+    .product-flex,
+    .product-flex-20,
+    .recipe-flex-20,
+    .nutrition-flex-20,
+    .product-flex-80,
+    .recipe-flex-80,
+    .nutrition-flex-80,
+    .ingredients-row .ingredients-item,
+    .footer-flex .footer-flex-20 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-flex {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nutrition-title-sm {
+        text-align: center;
+    }
+
+    .green-road .meals-menus .main-meal-title {
+        background: var(--primarycolor);
+        width: 100%;
+        text-align: center;
+    }
+
+    .address-wrapper .form-check{
+        flex: 0 0 95%;
+        max-width: 95%;
+    }
+    .order-items div {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .order-items,
+    .cart-flex,
+    .meals-menus {
+        flex-wrap: wrap;
+    }
+
+    .meal-list-period {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .meal-list-period li {
+        padding: 5px 15px;
+    }
+
+    .nutrition-cost-per .cost-per {
+        margin: 15px 0;
+    }
+
+    .testimonial-wrapper .testimonial-carousel .testimonial-grunge-wrapper {
+        background-size: 100% 100%;
+    }
+}
+
+/*  Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops) */
+/* No media query since the extra-large breakpoint has no upper bound on its width */

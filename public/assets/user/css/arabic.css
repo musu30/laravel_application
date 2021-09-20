@@ -1,0 +1,155 @@
+body {
+    direction: rtl;
+}
+
+.owl-carousel {
+    direction: ltr;
+}
+
+header .container .logo {
+    left: auto;
+    right: 0;
+}
+
+.banner-wrapper .banner-title {
+    left: auto;
+    right: 100px;
+    text-align: right;
+}
+
+.testimonial-wrapper .testimonial-carousel .testimonial-grunge-wrapper {
+    direction: rtl;
+}
+
+.testimonial-wrapper .testimonial-carousel .testimonial-grunge-wrapper .testimonial-users h6 {
+    padding-left: 10px;
+    padding-right: 0;
+}
+.careof-wrapper .careof-info p{
+    padding-left: 0;
+    padding-right: 15px;
+}
+.flex-input-field input{
+    margin-left: 0;
+    margin-right: 25px;
+}
+.footer-flex{
+    text-align: right;
+}
+.footer-flex .footer-links .quick-links ul:last-child {
+    padding-right: 25px;
+    padding-left: 0;
+}
+.cart-product-qty h3{
+    text-align: left;
+}
+.whatsapp{
+    right: auto;
+    left: 15px;
+}
+.qty{
+    direction: ltr;
+}
+.cart-product-qty{
+    align-items: flex-end;
+}
+.upload-box .upload-btn{
+    right: -83px;
+}
+.calendar .gj-datepicker .form-control,
+.input-group.mobil-code-group select.form-control {
+    border-radius: 0 25px 25px 0 !important;
+}
+
+.input-group.mobil-code-group input.form-control{
+    border-radius: 25px 0 0 25px !important;
+}
+.calendar .gj-datepicker .input-group-append .btn{
+    border-radius: 25px 0 0 25px !important;
+}
+.menus-wrapper .menu-items{
+    text-align: right;
+}
+.checkmark{
+    right: 0;
+    left: auto;
+}
+.container-ch{
+    padding-left: 0;
+    padding-right: 35px;
+}
+.gj-picker-bootstrap{
+    direction: ltr;
+}
+
+.form-group{
+    text-align: right;
+}
+
+.choose-nutrition .container-ch p img{
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px){
+    .offset-lg-2 {
+        margin-right: 16.666667%;
+        margin-left: 0;
+    }
+}
